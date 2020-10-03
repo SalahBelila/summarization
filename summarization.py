@@ -136,7 +136,7 @@ def start_training(model, attention, optimizer, loss_function, prev_epochs_num, 
     
 def start_evaluation(model, attention, loss_function, evaluation_set, metrics, log_every, device=DEVICE):
     
-    return evaluate(model, attention, loss_function, evaluation_set, metrics, log_every=log_every)
+    evaluate(model, attention, loss_function, evaluation_set, metrics, log_every=log_every)
 
 
 
