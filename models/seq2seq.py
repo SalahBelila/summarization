@@ -8,7 +8,7 @@ Created on Tue Sep  1 19:34:56 2020
 import torch
 from torch.nn import LSTM, Linear, Embedding, Module, Dropout, CrossEntropyLoss
 from torch.optim import SGD
-from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence, pad_sequence
+from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 import torch.nn.functional as F
 from models.utils import utils
 from timeit import default_timer as timer
